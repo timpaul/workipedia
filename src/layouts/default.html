@@ -11,8 +11,15 @@
   </head>
   <body>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+    {{> header}}
+ 
+    <div class="row">
+      <div class="large-12 columns">
+
+        {{> body}}
+
+      </div>
+    </div>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>
